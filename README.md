@@ -8,5 +8,8 @@ go get github.com/hnsanbai/snowflake
 import github.com/hnsanbai/snowflake
 
 func main() {
-	id := snowflake.GetSnowFlakeID(10, 10)// 参数1：数据中心标识，参数2：机器标识
+
+	// 参数1：数据中心标识，参数2：机器标识
+	id := snowflake.GetSnowFlakeID(10, 10)
+	
 }
