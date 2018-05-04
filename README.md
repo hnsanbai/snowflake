@@ -10,7 +10,5 @@ go get github.com/hnsanbai/snowflake
 # 使用
 import github.com/hnsanbai/snowflake
 
-func main() {
 // 参数1：数据中心标识，参数2：机器标识
 id := snowflake.GetSnowFlakeID(10, 10)
-}
